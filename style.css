@@ -9,14 +9,25 @@ h1 {
 }
 
 td {
-    background-color: lightseagreen;
     border-radius: 10px;
-    font-size: 70px;
-    width: 100px;
-    height: 150px;
+    font-size: 80px;
+    width: 150px;
+    height: 100px;
     text-align: center;
-    color: whitesmoke;
+    color: aliceblue;
     transition: 70ms;
+}
+
+#line1 td {
+    background-color: #099;
+}
+
+#line2 td {
+    background-color: #088;
+}
+
+#line3 td {
+    background-color: #077;
 }
 
 .play {
