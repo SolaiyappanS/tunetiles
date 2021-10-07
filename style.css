@@ -1,0 +1,25 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkcyan;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+td {
+    background-color: lightseagreen;
+    border-radius: 10px;
+    font-size: 70px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: whitesmoke;
+    transition: 70ms;
+}
+
+.play {
+    background-color: lightslategray;
+    transition: 150ms;
+}
