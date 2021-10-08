@@ -1,7 +1,7 @@
 body {
-    background-color: aliceblue;
+    background-color: beige;
     font-family: 'Courier New', Courier, monospace;
-    color: darkcyan;
+    color: #792304;
 }
 
 h1 {
@@ -14,23 +14,6 @@ td {
     width: 150px;
     height: 100px;
     text-align: center;
-    color: aliceblue;
+    color: beige;
     transition: 70ms;
-}
-
-#line1 td {
-    background-color: #099;
-}
-
-#line2 td {
-    background-color: #088;
-}
-
-#line3 td {
-    background-color: #077;
-}
-
-.play {
-    background-color: lightslategray;
-    transition: 150ms;
 }
