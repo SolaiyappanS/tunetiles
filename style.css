@@ -1,7 +1,7 @@
 body {
-    background-color: beige;
+    background-color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
-    color: #792304;
+    color: #067a86;
 }
 
 h1 {
@@ -9,11 +9,16 @@ h1 {
 }
 
 td {
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 80px;
     width: 150px;
-    height: 100px;
+    height: 150px;
     text-align: center;
-    color: beige;
-    transition: 70ms;
+    color: aliceblue;
+}
+table {
+    background-color: #0192a8;
+    border: 5px #0192a8 solid;
+    border-radius: 10px;
+    border-spacing: 17px;
 }

@@ -1,10 +1,9 @@
-var colors = ['#ff9066','#fc7c4e','#dd653a','#e2673a','#ad593a'];
 var keys = ['Q','W','E','R','T','A','S','D','F','G','Z','X','C','V','B']
 
 function playNote(code){
     if(keys.indexOf(code) != -1){
         var audio = document.getElementById("key"+code);
-        initialSetup();
+        document.getElementById("button"+code).style.backgroundColor = '#31b2c8';
         audio.currentTime = 0;
         audio.play();
     }
@@ -17,10 +16,12 @@ function playKey(e) {
     playNote((e.key).toUpperCase())
 }
 
+function normal(){
+    initialSetup();
+}
+
 function initialSetup(){
-    var color;
     for(var i=0; i<15; i++){
-        color = Math.floor(Math.random() * colors.length);
-        document.getElementById("button"+keys[i]).style.backgroundColor = colors[color];
+        document.getElementById("button"+keys[i]).style.backgroundColor = '#21a2b8';
     }
 }
