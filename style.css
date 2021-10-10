@@ -3,17 +3,19 @@ body {
     color: #067a86;
 }
 
-ul {
-    font-size: 25px;
-}
-
-#info td {
+#info {
     width: 700px;
+    font-size: 25px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
+    background-color: #0192a8;
+    color: aliceblue;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
     font-size: 30px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,27 +27,42 @@ h1 {
     display: inline;
 }
 
-td {
-    border-radius: 10px;
-    font-size: 80px;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-    color: aliceblue;
+.badge {
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #2337;
+    position: absolute;
+    clear: right;
 }
-table {
+
+.table {
     background-color: #0192a8;
     border: 5px #0192a8 solid;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
     border-spacing: 17px;
+    display: block;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.badge {
-    font-size: 15px;
-    font-family: Verdana;
-    font-weight: bold;
-    color: #0557;
-    position: absolute;
-    clear: right;
+.row {
+    height: fit-content;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.column {
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 80px;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 3px;
 }
