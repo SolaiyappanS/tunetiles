@@ -1,20 +1,12 @@
 body {
-    background-color: aliceblue;
-    color: #067a86;
+    background-color: whitesmoke;
 }
 
-#info {
-    width: 700px;
-    font-size: 25px;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-    background-color: #0192a8;
-    color: aliceblue;
-    width: 100px;
+button {
+    color: whitesmoke;
+    width: 200px;
     padding: 5px;
+    border-color: #0000;
     border-radius: 10px;
     font-size: 30px;
     text-align: center;
@@ -22,47 +14,8 @@ p {
 }
 
 h1 {
+    color: rgb(252, 13, 52);
     font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
     display: inline;
-}
-
-.badge {
-    font-size: 15px;
-    font-family: Verdana;
-    font-weight: bold;
-    color: #2337;
-    position: absolute;
-    clear: right;
-}
-
-.table {
-    background-color: #0192a8;
-    border: 5px #0192a8 solid;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 10px;
-    border-spacing: 17px;
-    display: block;
-    width: fit-content;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.row {
-    height: fit-content;
-    display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.column {
-    display: inline-block;
-    border-radius: 10px;
-    font-size: 80px;
-    width: 100px;
-    height: 90px;
-    text-align: center;
-    color: aliceblue;
-    padding-top: 5px;
-    padding-bottom: 3px;
 }
