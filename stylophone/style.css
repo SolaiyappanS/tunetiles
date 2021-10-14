@@ -1,6 +1,6 @@
 body {
-    background-color: beige;
-    color: #b16706;
+    background-color: white;
+    color: #ec2c49;
 }
 
 #info {
@@ -11,8 +11,8 @@ body {
 }
 
 button {
-    background-color: #b16706;
-    color: beige;
+    background-color: #ec2c49;
+    color: white;
     width: 100px;
     padding: 5px;
     border-radius: 10px;
@@ -43,8 +43,8 @@ h4 {
 }
 
 .table {
-    background-color: #915701;
-    border: 5px #915701 solid;
+    background-color: #b80a24;
+    border: 5px #b80a24 solid;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
     border-spacing: 17px;
@@ -68,7 +68,7 @@ h4 {
     width: 100px;
     height: 90px;
     text-align: center;
-    color: aliceblue;
+    color: white;
     padding-top: 5px;
     padding-bottom: 3px;
 }

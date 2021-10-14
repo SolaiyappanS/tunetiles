@@ -1,9 +1,9 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 button {
-    color: whitesmoke;
+    color: white;
     width: 200px;
     padding: 5px;
     border-color: #0000;
@@ -14,7 +14,7 @@ button {
 }
 
 h1 {
-    color: rgb(252, 13, 52);
+    color: rgb(0, 110, 255);
     font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
     display: inline;
