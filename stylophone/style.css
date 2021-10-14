@@ -1,0 +1,74 @@
+body {
+    background-color: beige;
+    color: #b16706;
+}
+
+#info {
+    width: 700px;
+    font-size: 25px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #b16706;
+    color: beige;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #0000;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+h4 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+
+.badge {
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #3327;
+    position: absolute;
+    clear: right;
+}
+
+.table {
+    background-color: #915701;
+    border: 5px #915701 solid;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border-spacing: 17px;
+    display: block;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row {
+    height: fit-content;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.column {
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 80px;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
