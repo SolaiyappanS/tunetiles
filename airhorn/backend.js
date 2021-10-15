@@ -3,7 +3,7 @@ var keys = ['E','R','T','Y','U','D','F','G','H','J']
 function playNote(code){
     if(keys.indexOf(code) != -1){
         var audio = document.getElementById("key"+code);
-        document.getElementById("button"+code).style.backgroundColor = '#b80a24';
+        document.getElementById("button"+code).style.backgroundColor = '#cf0a28';
         document.getElementById("button"+code).style.boxShadow = '0 10px 30px rgb(1 1 1 / 0.2)';
         audio.currentTime = 0;
         audio.play();
