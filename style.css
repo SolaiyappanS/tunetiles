@@ -4,11 +4,12 @@ body {
 
 button {
     color: white;
-    width: 200px;
-    padding: 5px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
     border-color: #0000;
-    border-radius: 10px;
-    font-size: 30px;
+    border-radius: 15px;
+    font-size: 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
