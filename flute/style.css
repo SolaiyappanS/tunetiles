@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    color: #20c4da;
+    color: #cc25b8;
 }
 
 #info {
@@ -11,7 +11,7 @@ body {
 }
 
 button {
-    background-color: #20c4da;
+    background-color: #cc25b8;
     color: white;
     width: 100px;
     padding: 5px;
@@ -43,8 +43,8 @@ h4 {
 }
 
 .table {
-    background-color: #0aa5b9;
-    border: 5px #0aa5b9 solid;
+    background-color: #cc25b8;
+    border: 5px #cc25b8 solid;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 15px;
     border-spacing: 17px;

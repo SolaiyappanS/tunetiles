@@ -9,7 +9,7 @@ function playNote(code){
             audio.pause();
         }
         audio = document.getElementById("key"+code);
-        document.getElementById("button"+code).style.backgroundColor = '#0da2b6';
+        document.getElementById("button"+code).style.backgroundColor = '#cc05b8';
         document.getElementById("button"+code).style.boxShadow = '0 10px 30px rgb(1 1 1 / 0.2)';
         audio.currentTime = 0;
         audio.play();
@@ -29,7 +29,7 @@ function normal(){
 
 function initialSetup(){
     for(var i=0; i<keys.length; i++){
-        document.getElementById("button"+keys[i]).style.backgroundColor = '#20c4da';
+        document.getElementById("button"+keys[i]).style.backgroundColor = '#f024da';
         document.getElementById("button"+keys[i]).style.boxShadow = 'none';
     }
 }
