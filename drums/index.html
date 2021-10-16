@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Drums</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="backend.js"></script>
+    </head>
+    <body onload="initialSetup()">
+        <div class="wrapper">
+            <div class="container">
+                <center>
+                    <br>
+                    <h1>Tune Tiles</h1><br>
+                    <h4>Drums</h4><br><br>
+                    <div class="table">
+                        <div class="row">
+                            <div class="column" id="buttonT" onmousedown="playNote('T')" onmouseup="normal()">
+                                <span class="badge">RIDE</span>T
+                            </div>
+                            <div class="column" id="buttonY" onmousedown="playNote('Y')" onmouseup="normal()">
+                                <span class="badge">HI HAT</span>Y
+                            </div>
+                            <div class="column" id="buttonU" onmousedown="playNote('U')" onmouseup="normal()">
+                                <span class="badge">CRASH</span>U
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column" id="buttonF" onmousedown="playNote('F')" onmouseup="normal()">
+                                <span class="badge">HI TOM</span>F
+                            </div>
+                            <div class="column" id="buttonG" onmousedown="playNote('G')" onmouseup="normal()">
+                                <span class="badge">MID TOM</span>G
+                            </div>
+                            <div class="column" id="buttonH" onmousedown="playNote('H')" onmouseup="normal()">
+                                <span class="badge">LO TOM</span>H
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column" id="buttonB" onmousedown="playNote('B')" onmouseup="normal()">
+                                <span class="badge">KICK</span>B
+                            </div>
+                            <div class="column" id="buttonN" onmousedown="playNote('N')" onmouseup="normal()">
+                                <span class="badge">SNARE</span>N
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <button onclick="location.href='../'">Home</button>
+                </center>
+            </div>
+        </div>
+        <audio id="keyB" src="sounds/01.mp3"></audio>
+        <audio id="keyY" src="sounds/02.mp3"></audio>
+        <audio id="keyN" src="sounds/03.mp3"></audio>
+        <audio id="keyU" src="sounds/05.mp3"></audio>
+        <audio id="keyF" src="sounds/06.mp3"></audio>
+        <audio id="keyG" src="sounds/07.mp3"></audio>
+        <audio id="keyH" src="sounds/08.mp3"></audio>
+        <audio id="keyT" src="sounds/00.mp3"></audio>
+    </body>
+</html>

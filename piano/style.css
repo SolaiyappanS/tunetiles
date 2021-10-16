@@ -1,6 +1,6 @@
 body {
-    background-color: aliceblue;
-    color: #0aa704;
+    background-color: white;
+    color: #555;
 }
 
 #info {
@@ -11,8 +11,8 @@ body {
 }
 
 button {
-    background-color: #0aa704;
-    color: aliceblue;
+    background-color: #555;
+    color: white;
     width: 100px;
     padding: 5px;
     border-radius: 10px;
@@ -37,14 +37,14 @@ h4 {
     font-size: 15px;
     font-family: Verdana;
     font-weight: bold;
-    color: #2337;
+    color: #fffa;
     position: absolute;
     clear: right;
 }
 
 .table {
-    background-color: #0b8a06;
-    border: 5px #0b8a06 solid;
+    background-color: #555;
+    border: 5px #555 solid;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
     border-spacing: 17px;
@@ -68,7 +68,7 @@ h4 {
     width: 100px;
     height: 90px;
     text-align: center;
-    color: aliceblue;
+    color: white;
     padding-top: 5px;
     padding-bottom: 3px;
 }
