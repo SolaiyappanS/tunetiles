@@ -2,6 +2,20 @@
     <head>
         <title>Tune Tiles</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            var shown = false;
+            function showInfo(){
+                shown = !shown;
+                if(shown){
+                    document.getElementById("info").style.display = "block";
+                    document.getElementById("infobtn").innerHTML = "Less Info";
+                }
+                else{
+                    document.getElementById("info").style.display = "none";
+                    document.getElementById("infobtn").innerHTML = "More Info";
+                }
+            }
+        </script>
     </head>
     <body>
         <div class="wrapper">
@@ -21,7 +35,15 @@
                         <button onclick="location.href='drums'" style="background-color: #e45858;">Drums</button>
                         <button onclick="location.href='guitar'" style="background-color: #637c42;">Acoustic Guitar</button>
                         <button style="background-color: #777;">Yet to come</button>
-                        <button style="background-color: #777;">Yet to come</button>
+                        <button style="background-color: #777;">Yet to come</button><br><br>
+                        <button onclick="showInfo()" id="infobtn" style="background-color: #006eff;">More Info</button>
+                    </div>
+                    <div id="info">
+                        <ul>
+                            <li>Created by Solaiyappan Shanmuganathan</li>
+                            <li>Use PC/laptop for multi key-press and quick responses</li>
+                            <li>There may be a delay for mobile users</li>
+                        </ul>
                     </div>
                 </center>
             </div>
