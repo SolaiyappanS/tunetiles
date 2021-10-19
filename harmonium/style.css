@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+    color: #a76d01;
+}
+
+#info {
+    width: 700px;
+    font-size: 25px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #a76d01;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #0000;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+h4 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+
+.badge {
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #3327;
+    position: absolute;
+    clear: right;
+}
+
+.table {
+    background-color: #ffa600;
+    border: 5px #ffa600 solid;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    border-spacing: 17px;
+    display: block;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row {
+    height: fit-content;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.column {
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 120px;
+    width: 150px;
+    height: 140px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
