@@ -50,15 +50,12 @@ h4 {
     border-spacing: 17px;
     display: block;
     width: fit-content;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 10px;
 }
 
 .row {
     height: fit-content;
     display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 .column {
@@ -69,6 +66,6 @@ h4 {
     height: 90px;
     text-align: center;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 3px;
+    margin: 10px;
+    padding: 5px;
 }

@@ -39,6 +39,7 @@ h4 {
     font-weight: bold;
     color: #fff;
     position: absolute;
+    padding-top: 5px;
 }
 
 .table {
@@ -48,7 +49,7 @@ h4 {
     border-radius: 20px;
     display: block;
     width: fit-content;
-    padding: 15px;
+    padding: 10px;
 }
 
 .row {
@@ -61,10 +62,9 @@ h4 {
     border-radius: 20px;
     font-size: 120px;
     width: 150px;
-    height: 140px;
+    height: 130px;
     text-align: center;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 3px;
+    padding: 5px;
     margin: 10px;
 }

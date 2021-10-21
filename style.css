@@ -24,19 +24,7 @@ h1 {
 
 h4 {
     font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
     display: inline;
-}
-
-#info{
-    color: white;
-    font-size: 25px;
-    width: 600px;
-    background-color: #006eff;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: left;
-    font-weight: normal;
 }
 
 .contac{
@@ -44,6 +32,7 @@ h4 {
     height: 80px;
 }
 .contac a{
+    display: inline-block;
     padding: 5px;
     padding-top: 20px;
     vertical-align: top;
@@ -51,14 +40,13 @@ h4 {
 .contac a i{
     font-size: 50px;
     color: #006eff;
-    background: #fff;
-    border-radius: 5px;
-    transition: 250ms;
+    transition: 200ms;
     padding: 10px;
+    vertical-align: top;
 }
 .contac a:hover i{
     font-size: 75px;
-    transition: 250ms;
+    transition: 200ms;
 }
 #homebtn{
     font-size: 50px;
