@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Mini Piano</title>
+        <title>DJ Solai</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="backend.js"></script>
     </head>
@@ -10,64 +10,51 @@
                 <center>
                     <br>
                     <h1>Tune Tiles</h1><br>
-                    <h4>Mini Piano</h4><br><br>
+                    <h4>DJ Solai</h4><br><br>
                     <div class="table">
                         <div class="row">
-                            <div class="column" id="buttonW" onmousedown="playNote('W')" onmouseup="normal()">
-                                W<span class="badge">C &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonE" onmousedown="playNote('E')" onmouseup="normal()">
-                                E<span class="badge">C# &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonR" onmousedown="playNote('R')" onmouseup="normal()">
-                                R<span class="badge">D &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonT" onmousedown="playNote('T')" onmouseup="normal()">
-                                T<span class="badge">D# &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonY" onmousedown="playNote('Y')" onmouseup="normal()">
-                                Y<span class="badge">E &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonU" onmousedown="playNote('U')" onmouseup="normal()">
-                                U<span class="badge">F &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonI" onmousedown="playNote('I')" onmouseup="normal()">
-                                I<span class="badge">F# &nbsp;</span>
-                            </div>
+                            <div class="column" id="button1" onclick="playNote('1')">1</div>
+                            <div class="column" id="button2" onclick="playNote('2')">2</div>
+                            <div class="column" id="button3" onclick="playNote('3')">3</div>
+                            <div class="column" id="button4" onclick="playNote('4')">4</div>
+                            <div class="column" id="button5" onclick="playNote('5')">5</div>
+                            <div class="column" id="button6" onclick="playNote('6')">6</div>
+                            <div class="column" id="button7" onclick="playNote('7')">7</div>
+                            <div class="column" id="button8" onclick="playNote('8')">8</div>
+                            <div class="column" id="button9" onclick="playNote('9')">9</div>
                         </div>
                         <div class="row">
-                            <div class="column" id="buttonS" onmousedown="playNote('S')" onmouseup="normal()">
-                                S<span class="badge">G &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonD" onmousedown="playNote('D')" onmouseup="normal()">
-                                D<span class="badge">G# &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonF" onmousedown="playNote('F')" onmouseup="normal()">
-                                F<span class="badge">A &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonG" onmousedown="playNote('G')" onmouseup="normal()">
-                                G<span class="badge">A# &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonH" onmousedown="playNote('H')" onmouseup="normal()">
-                                H<span class="badge">B &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonJ" onmousedown="playNote('J')" onmouseup="normal()">
-                                J<span class="badge">C &nbsp;</span>
-                            </div>
+                            <div class="column" id="buttonQ" onclick="playNote('Q')">Q</div>
+                            <div class="column" id="buttonW" onclick="playNote('W')">W</div>
+                            <div class="column" id="buttonE" onclick="playNote('E')">E</div>
+                            <div class="column" id="buttonR" onclick="playNote('R')">R</div>
+                            <div class="column" id="buttonT" onclick="playNote('T')">T</div>
+                            <div class="column" id="buttonY" onclick="playNote('Y')">Y</div>
+                            <div class="column" id="buttonU" onclick="playNote('U')">U</div>
+                            <div class="column" id="buttonI" onclick="playNote('I')">I</div>
+                            <div class="column" id="buttonO" onclick="playNote('O')">O</div>
                         </div>
                         <div class="row">
-                            <div class="column" id="buttonC" onmousedown="playNote('C')" onmouseup="normal()">
-                                C<span class="badge">C# &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonV" onmousedown="playNote('V')" onmouseup="normal()">
-                                V<span class="badge">D &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonB" onmousedown="playNote('B')" onmouseup="normal()">
-                                B<span class="badge">D# &nbsp;</span>
-                            </div>
-                            <div class="column" id="buttonN" onmousedown="playNote('N')" onmouseup="normal()">
-                                N<span class="badge">E &nbsp;</span>
-                            </div>
+                            <div class="column" id="buttonA" onclick="playNote('A')">A</div>
+                            <div class="column" id="buttonS" onclick="playNote('S')">S</div>
+                            <div class="column" id="buttonD" onclick="playNote('D')">D</div>
+                            <div class="column" id="buttonF" onclick="playNote('F')">F</div>
+                            <div class="column" id="buttonG" onclick="playNote('G')">G</div>
+                            <div class="column" id="buttonH" onclick="playNote('H')">H</div>
+                            <div class="column" id="buttonJ" onclick="playNote('J')">J</div>
+                            <div class="column" id="buttonK" onclick="playNote('K')">K</div>
+                            <div class="column" id="buttonL" onclick="playNote('L')">L</div>
+                        </div>
+                        <div class="row">
+                            <div class="column" id="buttonZ" onclick="playNote('Z')">Z</div>
+                            <div class="column" id="buttonX" onclick="playNote('X')">X</div>
+                            <div class="column" id="buttonC" onclick="playNote('C')">C</div>
+                            <div class="column" id="buttonV" onclick="playNote('V')">V</div>
+                            <div class="column" id="buttonB" onclick="playNote('B')">B</div>
+                            <div class="column" id="buttonN" onclick="playNote('N')">N</div>
+                            <div class="column" id="buttonM" onclick="playNote('M')">M</div>
+                            <div class="column" id="button," onclick="playNote(',')">,</div>
+                            <div class="column" id="button." onclick="playNote('.')">.</div>
                         </div>
                     </div>
                     <br><br>
@@ -75,22 +62,41 @@
                 </center>
             </div>
         </div>
-        <audio id="keyW" src="sounds/00.wav"></audio>
-        <audio id="keyE" src="sounds/01.wav"></audio>
-        <audio id="keyR" src="sounds/02.wav"></audio>
-        <audio id="keyT" src="sounds/03.wav"></audio>
-        <audio id="keyY" src="sounds/04.wav"></audio>
-        <audio id="keyU" src="sounds/05.wav"></audio>
-        <audio id="keyI" src="sounds/06.wav"></audio>
-        <audio id="keyS" src="sounds/07.wav"></audio>
-        <audio id="keyD" src="sounds/08.wav"></audio>
-        <audio id="keyF" src="sounds/09.wav"></audio>
-        <audio id="keyG" src="sounds/10.wav"></audio>
-        <audio id="keyH" src="sounds/11.wav"></audio>
-        <audio id="keyJ" src="sounds/12.wav"></audio>
-        <audio id="keyC" src="sounds/13.wav"></audio>
-        <audio id="keyV" src="sounds/14.wav"></audio>
-        <audio id="keyB" src="sounds/15.wav"></audio>
-        <audio id="keyN" src="sounds/16.wav"></audio>
+        <audio id="key1" src="sounds/t0.mp3"></audio>
+        <audio id="key2" src="sounds/t1.mp3"></audio>
+        <audio id="key3" src="sounds/t2.mp3"></audio>
+        <audio id="key4" src="sounds/t3.mp3"></audio>
+        <audio id="key5" src="sounds/t4.mp3"></audio>
+        <audio id="key6" src="sounds/t5.mp3"></audio>
+        <audio id="key7" src="sounds/t6.mp3"></audio>
+        <audio id="key8" src="sounds/t7.mp3"></audio>
+        <audio id="key9" src="sounds/t8.mp3"></audio>
+        <audio id="keyQ" src="sounds/e0.mp3"></audio>
+        <audio id="keyW" src="sounds/e1.mp3"></audio>
+        <audio id="keyE" src="sounds/e2.mp3"></audio>
+        <audio id="keyR" src="sounds/e3.mp3"></audio>
+        <audio id="keyT" src="sounds/e4.mp3"></audio>
+        <audio id="keyY" src="sounds/e5.mp3"></audio>
+        <audio id="keyU" src="sounds/e6.mp3"></audio>
+        <audio id="keyI" src="sounds/e7.mp3"></audio>
+        <audio id="keyO" src="sounds/e8.mp3"></audio>
+        <audio id="keyA" src="sounds/m1.mp3"></audio>
+        <audio id="keyS" src="sounds/m2.mp3"></audio>
+        <audio id="keyD" src="sounds/m3.mp3"></audio>
+        <audio id="keyF" src="sounds/m4.mp3"></audio>
+        <audio id="keyG" src="sounds/m5.mp3"></audio>
+        <audio id="keyH" src="sounds/m6.mp3"></audio>
+        <audio id="keyJ" src="sounds/m7.mp3"></audio>
+        <audio id="keyK" src="sounds/m8.mp3"></audio>
+        <audio id="keyL" src="sounds/m0.mp3"></audio>
+        <audio id="keyZ" src="sounds/01.mp3"></audio>
+        <audio id="keyX" src="sounds/02.mp3"></audio>
+        <audio id="keyC" src="sounds/03.mp3"></audio>
+        <audio id="keyV" src="sounds/04.mp3"></audio>
+        <audio id="keyB" src="sounds/05.mp3"></audio>
+        <audio id="keyN" src="sounds/06.mp3"></audio>
+        <audio id="keyM" src="sounds/07.mp3"></audio>
+        <audio id="key," src="sounds/08.mp3"></audio>
+        <audio id="key." src="sounds/09.mp3"></audio>
     </body>
 </html>

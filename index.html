@@ -2,20 +2,6 @@
     <head>
         <title>Tune Tiles</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script>
-            var shown = false;
-            function showInfo(){
-                shown = !shown;
-                if(shown){
-                    document.getElementById("info").style.display = "block";
-                    document.getElementById("infobtn").innerHTML = "Less Info";
-                }
-                else{
-                    document.getElementById("info").style.display = "none";
-                    document.getElementById("infobtn").innerHTML = "More Info";
-                }
-            }
-        </script>
     </head>
     <body>
         <div class="wrapper">
@@ -24,29 +10,21 @@
                     <br>
                     <h1>Tune Tiles</h1><br><br>
                     <div id="contents">
-                        <button onclick="location.href='piano'" style="background-color: #444;">Mini Piano</button>
-                        <button onclick="location.href='stylophone'" style="background-color: #078f9e;">Stylophone</button>
-                        <button onclick="location.href='airhorn'" style="background-color: #d21f3c;">Air Horn</button>
-                        <button onclick="location.href='trumpet'" style="background-color: #daa520;">Trumpet</button>
-                        <button onclick="location.href='flute'" style="background-color: #f004da;">Flute</button>
-                        <button onclick="location.href='tabla'" style="background-color: #664302;">Tabla</button>
-                        <button onclick="location.href='bongos'" style="background-color: #450588;">Bongos</button>
-                        <button onclick="location.href='sitar'" style="background-color: #fe7a15;">Sitar</button>
-                        <button onclick="location.href='drums'" style="background-color: #e45858;">Drums</button>
-                        <button onclick="location.href='guitar'" style="background-color: #637c42;">Acoustic Guitar</button>
-                        <button onclick="location.href='horn'" style="background-color: #7c7e03;">Musical Horn</button>
-                        <button onclick="location.href='chords'" style="background-color: #096a97;">Piano Chords</button>
-                        <button onclick="location.href='harmonium'" style="background-color: #a76d01;">Harmonium</button>
-                        <button style="background-color: #777;">Yet to come</button>
-                        <button style="background-color: #777;">Yet to come</button><br><br>
-                        <button onclick="showInfo()" id="infobtn" style="background-color: #006eff;">More Info</button>
-                    </div>
-                    <div id="info">
-                        <ul>
-                            <li>Created by Solaiyappan Shanmuganathan</li>
-                            <li>Use PC/laptop for multi key-press and quick responses</li>
-                            <li>There may be a delay for mobile users</li>
-                        </ul>
+                        <button onclick="location.href='tiles/piano'" style="background-color: #444;">Mini Piano</button>
+                        <button onclick="location.href='tiles/stylophone'" style="background-color: #078f9e;">Stylophone</button>
+                        <button onclick="location.href='tiles/airhorn'" style="background-color: #d21f3c;">Air Horn</button>
+                        <button onclick="location.href='tiles/trumpet'" style="background-color: #daa520;">Trumpet</button>
+                        <button onclick="location.href='tiles/flute'" style="background-color: #f004da;">Flute</button>
+                        <button onclick="location.href='tiles/tabla'" style="background-color: #664302;">Tabla</button>
+                        <button onclick="location.href='tiles/bongos'" style="background-color: #450588;">Bongos</button>
+                        <button onclick="location.href='tiles/sitar'" style="background-color: #fe7a15;">Sitar</button>
+                        <button onclick="location.href='tiles/drums'" style="background-color: #e45858;">Drums</button>
+                        <button onclick="location.href='tiles/guitar'" style="background-color: #637c42;">Acoustic Guitar</button>
+                        <button onclick="location.href='tiles/horn'" style="background-color: #7c7e03;">Musical Horn</button>
+                        <button onclick="location.href='tiles/chords'" style="background-color: #096a97;">Piano Chords</button>
+                        <button onclick="location.href='tiles/harmonium'" style="background-color: #a76d01;">Harmonium</button>
+                        <button onclick="location.href='tiles/dj'" style="background-color: #333;">DJ Solai</button>
+                        <button onclick="location.href='info.html'" style="background-color: #006eff;">More Info</button>
                     </div>
                 </center>
             </div>

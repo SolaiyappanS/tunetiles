@@ -33,32 +33,20 @@ h4 {
     display: inline;
 }
 
-.badge {
-    font-size: 15px;
-    font-family: Verdana;
-    font-weight: bold;
-    color: #fffa;
-    position: absolute;
-    clear: right;
-}
-
 .table {
-    background-color: #555;
-    border: 5px #555 solid;
+    background-color: #000;
+    border: 5px #000 solid;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
-    border-spacing: 17px;
     display: block;
     width: fit-content;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
 }
 
 .row {
     height: fit-content;
     display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin: 5px;
 }
 
 .column {
@@ -67,8 +55,6 @@ h4 {
     font-size: 80px;
     width: 100px;
     height: 90px;
+    margin: 10px;
     text-align: center;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 3px;
 }
